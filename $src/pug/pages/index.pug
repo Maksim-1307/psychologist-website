@@ -1,0 +1,155 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Айсылу Ахметзянова | личный сайт
+        link(rel='stylesheet' href='style.css')
+    body 
+        .wrapper
+            header.header
+                .container
+                    a(href='#').logo Айсылу Ахметзянова
+                    nav.nav
+                        a(href='#').nav__link обо мне
+                        a(href='#').nav__link контакты
+                        a(href='#').nav__link отзывы
+                        a(href='#').nav__link услуги
+                    a(href='#').button-1 записаться на приём
+                    button.burger-button
+                        div 
+                        div 
+                        div 
+            .burger-menu__wrapper
+                .burger-menu
+                    .container
+                        .logo Айсылу Ахметзянова
+                        nav.nav.burger-menu__nav
+                            a(href='#').nav__link обо мне
+                            a(href='#').nav__link контакты
+                            a(href='#').nav__link отзывы
+                            a(href='#').nav__link услуги
+                        a(href='#').button-1 записаться на приём
+                        button.burger-button
+                            div 
+                            div 
+                            div 
+            section.main-section
+                .container
+                    div(style='background-image: url("/img/my-photo.jpg")').main-section__photo
+                    .main-section__info
+                        h1 Ваш психолог Айсылу Ахметзянова
+                        .socials
+                            a(href='').socials__link
+                                img(src='img/icons/instagram.png')
+                            a(href='').socials__link
+                                img(src='img/icons/VK.png')
+                            a(href='').socials__link
+                                img(src='img/icons/whatsapp.png')
+                        p Меня зовут Ахметзянова Айсылу, я практический психолог, гештальт-консультант, педагог-психолог, Арт-терапевт, мак коуч, игропрактик. Помогу вам разобраться со своими эмоциями, познакомиться с самим собой. Провожу психологические трансформационные игры, по желанию клиента, использую в своей работе метафорические ассоциативные карты.
+                        a(href='#').button-1 записаться на приём
+            section.my-work-section
+                .container
+                    h2 С чем я работаю
+                    .my-work-section__content
+                        .my-work-section__point
+                            div(style="background-image: url('img/img1.jpg')")
+                            | Низкая самооценка
+                        .my-work-section__point
+                            div(style="background-image: url('img/img2.jpg')")
+                            | Неуверенность в себе
+                        .my-work-section__point
+                            div(style="background-image: url('img/img3.jpg')")
+                            | Подавленное депрессивное состояние
+                        .my-work-section__point
+                            div(style="background-image: url('img/img4.jpg')")
+                            | Помогу найти ресурсы внутри себя 
+                    .my-work-section__background
+            section.about-section
+                .container
+                    ul.about-section__info
+                        li <img src='img/icons/check.svg'> 5 лет опыта работы
+                        li <img src='img/icons/check.svg'> регулярная личная терапия
+                        li <img src='img/icons/check.svg'> участие в интервизиях с коллегами
+                        li <img src='img/icons/check.svg'> регулярная супервизия
+                    p Основной принцип гештальт-терапии — рассмотрение человека как целостного субъекта: гештальт консультант наблюдает его мысли, эмоции, чувства и физические ощущения как взаимосвязанные между собой элементы
+                    a(href='#').button-1.button-1--shadow записаться на конультацию
+            section.nuances-section
+                .container
+                    div(style="background-image: url('img/my-photo-2.jpg')").nuances-section__img
+                    h2 Важные нюансы о моей работе
+                    .nuances-section__list
+                        .nuances-element 
+                            img(src='img/icons/icon-1.png').nuances-element__icon
+                            h3.nuances-element__title Конфиденциальность и этика психолога
+                            p.nuances-element__text Всё, о чем говорят в моём кабинете, остаётся только между нами. Данная информация не подлежит разглашению третьим лицам. 
+                        .nuances-element 
+                            img(src='img/icons/icon-2.png').nuances-element__icon
+                            h3.nuances-element__title О принятии
+                            p.nuances-element__text Я не разделяю людей на плохих и хороших, правильных или не правильных. Все мы являемся тем, кем являемся. Мы такие, какие есть, потому что, у нас разный багаж за спиной, восприятие и выработанные модели поведения. Поэтому вы всегда будете услышаны и приняты
+                        .nuances-element 
+                            img(src='img/icons/icon-3.png').nuances-element__icon
+                            h3.nuances-element__title Всё под вашим контролем
+                            p.nuances-element__text Вы в любой момент можете остановить работу. Вы можете сказать стоп, если будет тяжело или глубоко. Вы можете регулировать интенсивность, силу и объем курсов так, как это подходит вам.
+                        .nuances-element 
+                            img(src='img/icons/icon-4.png').nuances-element__icon
+                            h3.nuances-element__title Про зависимость от психолога
+                            p.nuances-element__text Важно, чтобы наша работа была завершена, чтобы клиент по прошествии времени смог самостоятельно развиваться дальше без помощи психолога.
+            section.games-section
+                .container
+                    img(src='img/cards_image.png').games-section__img
+                    h2 Что такое трансформационная игра?
+                    p Психологические трансформационные игры — это такой инструмент самопознания и благоприятных изменений, где участника не учат, как сделать правильно, а где сам участник игры понимает, что ему делать, исходя из своего прожитого опыта, смотря через фильтр тех методик, которые заложены в игре. Ведь что такое трансформация – это переход в новую форму, а психология – это наука о трансформации психики. Меняем мышление, меняются эмоции и чувства, меняется реакции в теле и поведение
+                    .games-section__games
+                        .game-card
+                            div(style='background-image: url("img/game-1_img.jpg")').game-card__image
+                            h3 Игра в «Тени моей тени»
+                            p Игра в «Тени моей тени» - это психологическая игра-самопознание. Она направлена на исследование своих скрытых ресурсов, потенциалов, не проявленных идей, качеств, чувств и т.д. Даёт возможность встретиться с собой разным, пролить Свет на Тень, найти ресурс
+                            a(href='').button-1 узнать больше
+                        .game-card
+                            div(style='background-image: url("img/game-2_img.jpg")').game-card__image
+                            h3 Игра «Синдром самозванца»
+                            p Синдром самозванца – это, прежде всего, состояние, когда человек не может присваивать свои достижения себе, своим качествам, способностям и усилиям. Все успехи, которые у них есть, они объясняют удачей и счастливым стечением обстоятельств. Цель игры - проработать синдром самозванца с помощью эффективной игровой методики для трансформации внутренних страхов, сомнений, ограничивающих убеждений, неуверенности в себе, чтобы ощутить свою ценность для достижения успеха.
+                            a(href='').button-1 узнать больше
+            section.services-section
+                .container
+                    h2 Услуги
+                    .services-section__services
+                        .service-card 
+                            div(style="background-image:url('img/services-img-1.jpg')").service-card__image
+                            h3 Очная консультация
+                            p Очная консультация это встреча в уютном оф лайн пространстве, которая будет длиться в течение 50 мин
+                            .service-card__price 2 000 руб.
+                            a(href='#').button-1 записаться
+                        .service-card 
+                            div(style="background-image:url('img/services-img-2.jpg')").service-card__image
+                            h3 Очная консультация
+                            p Очная консультация это встреча в уютном оф лайн пространстве, которая будет длиться в течение 50 мин
+                            .service-card__price 2 000 руб.
+                            a(href='#').button-1 записаться
+                        .service-card 
+                            div(style="background-image:url('img/game-1_img.jpg')").service-card__image
+                            h3 Очная консультация
+                            p Очная консультация это встреча в уютном оф лайн пространстве, которая будет длиться в течение 50 мин
+                            .service-card__price 2 000 руб.
+                            a(href='#').button-1 записаться
+                        .service-card 
+                            div(style="background-image:url('img/game-2_img.jpg')").service-card__image
+                            h3 Очная консультация
+                            p Очная консультация это встреча в уютном оф лайн пространстве, которая будет длиться в течение 50 мин
+                            .service-card__price 2 000 руб.
+                            a(href='#').button-1 записаться
+                        .service-card
+                            h3 Хотите что-то уточнить? 
+                            p вы можете задать мне вопрос удобным для Вас способом:
+                            .socials
+                                a(href='').socials__link
+                                    img(src='img/icons/instagram.png')
+                                a(href='').socials__link
+                                    img(src='img/icons/VK.png')
+                                a(href='').socials__link
+                                    img(src='img/icons/whatsapp.png')
+
+        footer.footer
+            
+                    

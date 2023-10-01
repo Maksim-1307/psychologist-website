@@ -1,0 +1,22 @@
+.main-section{
+    padding-top: 80px;
+    margin-bottom: 30px;
+    &__photo{
+        width: 100%;;
+        display: inline-block;
+        padding-top: 147%;
+        box-shadow: -15px 15px 0px 0px #EBC7B7;
+        border-radius: 20px;
+        margin-bottom: 54px;
+        background-size: cover;
+    }
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        align-items: flex-start;
+        *{
+            margin: 0px;
+        }
+    }
+}
