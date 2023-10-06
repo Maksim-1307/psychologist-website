@@ -1,0 +1,13 @@
+.diplomes-section{
+    .slider-2{
+        margin-bottom: 30px;
+        min-width: 100vw;
+        margin-left: -25px;
+        .adaptive-image{
+            border-radius: 10px;
+            &:first-child{
+                margin-left: 25px;
+            }
+        }
+    }
+}

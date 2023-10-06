@@ -4,6 +4,7 @@
     width: 100%;
     z-index: 10;
     background-color: white;
+    transition: 1s;
     .container{
         display: flex;
         justify-content: space-between;
@@ -11,4 +12,11 @@
     .nav, .button-1{
         display: none;
     }
+
+}    
+.burger-button{
+    position: fixed;
+    top: 32px;
+    right: 25px;
+    z-index: 21;
 }

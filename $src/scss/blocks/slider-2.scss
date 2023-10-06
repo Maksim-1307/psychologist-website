@@ -1,0 +1,11 @@
+.slider-2{
+    &__images{
+        display: flex;
+        gap: 20px;
+        overflow: scroll;
+    }
+    .adaptive-image{
+        height: 250px;
+        min-width: 180px;
+    }
+}

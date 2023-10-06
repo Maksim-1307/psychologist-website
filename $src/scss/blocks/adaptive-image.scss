@@ -1,0 +1,22 @@
+.adaptive-image {
+    overflow: hidden;
+    background-size: cover;
+    position: relative;
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        background-color: rgba(0, 0, 0, 0.15);
+        backdrop-filter: blur(2px);
+    }
+    &__full-size{
+        background-color: rgba(0,0,0,0) !important;
+        z-index: 3;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        max-width: 20px;
+        max-height: 20px;
+    }
+}
