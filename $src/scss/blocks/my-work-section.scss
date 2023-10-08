@@ -1,6 +1,10 @@
 .my-work-section{
     position: relative;
-
+    
+    .container{
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
     &__content{
         display: grid;
         grid-template-columns: 1fr 1fr;

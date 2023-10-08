@@ -1,0 +1,30 @@
+.footer{
+    background: $light-color-1;
+    padding-top: 60px;
+    .nav{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 175.286%;
+    }
+    &__contacts{
+        display: flex;
+        flex-direction: column;
+        span{
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 181.023%;
+        }
+    }
+
+    &__bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 50px 30px 0;
+    }
+}
