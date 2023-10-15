@@ -1,9 +1,22 @@
 .reviews-section{
     text-align: center;
-        h2{
-            margin-bottom: 20px;
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h2{
+        margin-bottom: 20px;
+    }
+    p{
+        margin-bottom: 20px;
+    }
+    .slider-1__arrows{
+        @media screen and (min-width: 470px) {
+            padding: 0 40%;
         }
-        p{
-            margin-bottom: 20px;
-        }
+    }
+    &__top{
+        max-width: 400px;
+    }
 }

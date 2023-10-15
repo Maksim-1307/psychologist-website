@@ -8,6 +8,10 @@
         font-size: 16px;
         font-weight: 400;
         line-height: 175.286%;
+        @media screen and (min-width: 1000px) {
+            flex-direction: row;
+            gap: 30px;
+        }
     }
     &__contacts{
         display: flex;

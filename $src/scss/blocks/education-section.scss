@@ -1,5 +1,45 @@
 .education-section{
-    &__image{
+    .container{
+        @media screen and (min-width: 700px) {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            flex-direction: row-reverse;
+        }
+        @media screen and (min-width: $break-point-3) {
+            gap: 80px;
+        }
+    }
+    .slider-1{
+        flex-grow: 1;
+    }
+    .slider-1 .slider-1__images{
+        @media screen and (min-width: 420px) {
+            height: 320px;
+        }
+        @media screen and (min-width: 500px) {
+            height: 400px;
+        }
+        @media screen and (min-width: 620px) {
+            height: 540px;
+        }
+        @media screen and (min-width: 700px) {
+            height: 340px;
+        }
+    }
+    &__top{
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        @media screen and (min-width: 700px) {
+            width: 40%;
+        }
+    }
+    &__image {
         margin: 50px 0 30px 0;
+        @media screen and (min-width: 700px) {
+            order: -1;
+            margin-bottom: 60px;
+        }
     }
 }

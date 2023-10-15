@@ -30,11 +30,10 @@
         }
     }
     &__arrows{
-        padding: 0 10%;
         position: absolute;
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         top: 50%;
         transform: translateY(-50%);
         img{
@@ -42,6 +41,11 @@
             &:last-child{
                 transform: rotate(180deg);
             }
+        }
+        & > div{
+            display: flex;
+            justify-content: space-between;
+            width: calc(var(--img-width) + 120px);
         }
     }
 }

@@ -1,10 +1,14 @@
 .about-section{
     .container{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        align-items: flex-start;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
         padding-bottom: 20px;
+        @media screen and (min-width: $break-point-1) {
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            gap: 80px;
+        }
     }
     &__info{ 
         li{
@@ -21,5 +25,17 @@
         li + li{
             margin-top: 15px; 
         } 
+    }
+    &__top{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
+    }
+    &__img {
+        width: 100%;
+        padding-top: 150%;
+        border-radius: 20px;
+        background-size: cover;
     }
 }

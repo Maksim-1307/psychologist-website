@@ -17,7 +17,7 @@ const readline = require('readline').createInterface({
 //SETTINGS
 
 let currentPage = 'index.pug';
-let toCompress = true;
+let toCompress = false;
 
 
 //PROJECT STRUCTURE
